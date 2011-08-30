@@ -1,1 +1,27 @@
-Hello World.
+<html>
+<head>
+	<title>Hello World!</title>
+	
+	<style type="text/css">
+		/*body { font-family: sans-serif; font-size: 14px; }*/
+		.php_node { color: red; display: inline-block; background: lightyellow; }
+		.lang_construct { color: blue; font-weight; bold; }
+		.string { color: #999; }
+		.cursor { color: #000; font-size: 18px; display: inline-block; margin-right: -6px; margin-left: -4px; }
+	</style>
+	
+	<script style="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script style="text/javascript" src="jquery-blink.js"></script>
+	<script style="text/javascript">
+		$(document).ready(function () {
+			$('.cursor').blink();
+		});
+	</script>
+</head>
+
+<body>
+	<code>
+		<span class="php_node">&lt;?php</span> <span class="lang_construct">echo</span> <span class="string">"Hello World."</span><span class="cursor">|</span>; <span class="php_node">?&gt;</span>
+	</code>
+</body>
+</html>
